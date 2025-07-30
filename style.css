@@ -3,8 +3,6 @@
 @import "../styles/login.css";
 @import "../styles/signup.css";
 
-
-
 :root {
   --text-color-white: #f5f5f5;
   --text-color-black: #000000;
@@ -27,13 +25,13 @@ html {
   display: none;
 }
 body {
-    font-family: "Poppins";
+  font-family: "Poppins";
 }
 a {
   text-decoration: none;
 }
 .landing {
-  background-image: url("../img/gym-room.jpg");
+  background-image: url("img/gym-room.jpg");
   min-height: 100%;
   background-position: center;
   background-size: cover;
@@ -405,7 +403,6 @@ a {
   .activities .txt {
     font-size: 0.8em;
   }
-  
 }
 
 /* SERVICE SECTION */
@@ -696,7 +693,7 @@ a {
   border-radius: 30px;
   border: 2px solid var(--bg-dark-green);
   color: var(--text-color-black);
-  transition: all .75s ease-out;
+  transition: all 0.75s ease-out;
 }
 .membership .membership-btn:hover {
   background-color: var(--bg-dark-green);
@@ -709,33 +706,33 @@ a {
   border: 2px solid black;
 }
 .starter-plan .paragraph {
-    line-height: 2;
-    font-size: .7em;
-    margin-top: 25px;
+  line-height: 2;
+  font-size: 0.7em;
+  margin-top: 25px;
 }
 
 /* STYLES FOR BASIC CARD */
 .price-container .Basic {
-    background-color: var(--bg-dark-green);
-    color: #a0cb63;
+  background-color: var(--bg-dark-green);
+  color: #a0cb63;
 }
 .price-container .Basic num {
-    color: #a0cb63;
+  color: #a0cb63;
 }
 .price-container .Basic .butn1 {
-    color: var(--text-color-black);
-    background-color: #a0cb63;
-    border: 2px solid #a0cb63;
+  color: var(--text-color-black);
+  background-color: #a0cb63;
+  border: 2px solid #a0cb63;
 }
 .price-container .Basic .butn1:hover {
-    background-color: transparent;
-    color: var(--text-color-white);
-    border: 2px solid #a0cb63;
+  background-color: transparent;
+  color: var(--text-color-white);
+  border: 2px solid #a0cb63;
 }
 .price-container .Basic hr {
-    width: 60%;
-    justify-self: center;
-    border: 2px solid #a0cb63;
+  width: 60%;
+  justify-self: center;
+  border: 2px solid #a0cb63;
 }
 @media (max-width: 768px) {
   /* .price-container {
@@ -827,10 +824,10 @@ a {
   }
 }
 @media (max-width: 500px) {
-.comment-section {
+  .comment-section {
     padding: 40px;
   }
-  
+
   .comment-up {
     padding: 30px 20px;
   }
@@ -992,22 +989,21 @@ a {
   padding-bottom: 10px;
 }
 #scrollToTopBtn {
-    display: none;
-    position: fixed; 
-    bottom: 20px;
-    right: 30px;
-    z-index: 99; 
-    border: none;
-    background-color: var(--bg-light-green);
-    color: var(--bg-dark-green);
-    cursor: pointer; 
-    padding: 2px;
-    border-radius: 50%;
-    font-size: 2.5em;
-    box-shadow: 0 5px 10px rgba(0,0,0,0.4); 
-    transition: background-color 0.3s, transform 0.3s;
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  border: none;
+  background-color: var(--bg-light-green);
+  color: var(--bg-dark-green);
+  cursor: pointer;
+  padding: 2px;
+  border-radius: 50%;
+  font-size: 2.5em;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.4);
+  transition: background-color 0.3s, transform 0.3s;
 }
-
 
 @media (max-width: 768px) {
   .upper-footer {
