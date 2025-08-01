@@ -46,6 +46,9 @@ a {
   justify-content: center;
   text-align: center;
   height: 100%;
+  background-color: rgba(0, 0, 0, 0.05);
+  backdrop-filter: blur(2px);
+  -webkit-backdrop-filter: blur(2px);
 }
 .intro h1 {
   font-size: 5em;
@@ -992,7 +995,7 @@ a {
   display: none;
   position: fixed;
   bottom: 20px;
-  right: 30px;
+  right: 60px;
   z-index: 99;
   border: none;
   background-color: var(--bg-light-green);
